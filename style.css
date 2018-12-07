@@ -13,6 +13,12 @@ body {
   justify-content: center;
 }
 
+button {
+  background: none;
+  border: none;
+  outline: none;
+}
+
 .clicked {
   color: #7f8c8d;
 }
