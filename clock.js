@@ -1,5 +1,5 @@
 const clock = document.querySelector(".js-clock"),
-  clockTitle = document.querySelector(".clock");
+  clockTitle = clock.querySelector("h1");
 
 function showingClock() {
   const date = new Date(); //setInterval로 초기화를 해주면서 시간 데이터를 받아야해서 함수 안에다 선언함
